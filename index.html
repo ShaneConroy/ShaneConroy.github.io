@@ -1,56 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Shovel</title>
-        <style>
-            p {
-                font-family: sans-serif;
-            }
-            
-            .fact {
-                border-top: 1px solid rgb(222, 222, 222);
-                border-bottom: 1px solid rgb(222, 222, 222);
-                padding-top: 6px;
-                padding-bottom: 6px; 
-                text-align: center;
-            }
-            .paraOne
-            {
-                font-size: large;
-                padding-right: 75%;
-                padding-left: 5%;
-                color: black;
-            }
-            
-            .titleOne
-            {
-                font-size:50px;
-                font-style:italic;
-                text-align: center;
-                color: black;
-            }
-            #ShovelRotate
-            {
-                position:absolute;
-                right: 43%;
-                top: 140px;
-                align-items: center;
-            }
-            #ShovelList
-            {
-                font-size:large;
-                padding-left: 10%;
-            }
-            #squareShovel
-            {
-                position:absolute;
-                width:250px;
-                right: 75px;
-
-            }
-            
-        </style>
+        <link rel="stylesheet" href="stylesheet.css">   
     </head>
     <body>
         
@@ -64,14 +15,19 @@
 
         <p class="paraOne"> The shovel is perhaps the closest man has ever been to perfection while creating a tool. The simplicty yet ingenuity of the majestic device is unrivaled. Man was not created in the image of God, shovels were. Shovels are used primarily to move earth and minerals. Shovels come in many shapes and sizes, all great. There is many different unique shovels that are specific to certain situations, and the do there job brilliantly, always.
             <img id="ShovelRotate"src="https://64.media.tumblr.com/1cbf48bdaef96254be397875e2cbc5f1/tumblr_inline_pnadcdRfRy1wuj82d_250.gifv">
+
         </p>
 
         <p class="fact">
             <strong>The different types of shovels</strong>
         </p>
+
         
         <img id="squareShovel"src="https://media.diy.com/is/image/Kingfisher/magnusson-square-shovel~5059340086583_01c?$MOB_PREV$&$width=768&$height=768">
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWh7qtG-sm1i6jjWu3RmY3Z7HiOLQMRkbsb_n68jrgZ_SFZ1mvZdEnYgbAOwUP6bQoV1g&usqp=CAU" id="pointyShovel" > 
 
+        <img src="data:image/jpeg;base64,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" id= "smallShovel">
         <p>
 
         <ul id="ShovelList">
@@ -81,7 +37,16 @@
             <li>Multi-tool shovels</li>
 
         </ul>
+        
+        <p class="links">
+            <a  href="page2.html"> Link to page 2</a>
+            <a  href="page3.html"> Link to page 3</a>
+        </p>
             
+            
+            
+
+
         </p>
     </body>
 </html>-

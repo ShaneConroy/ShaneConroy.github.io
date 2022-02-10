@@ -1,3 +1,4 @@
+
 p {
     font-family: sans-serif;
 }
@@ -6,8 +7,7 @@ p {
     border-top: 1px solid rgb(222, 222, 222);
     border-bottom: 1px solid rgb(222, 222, 222);
     padding-top: 6px;
-    padding-bottom: 6px;
-    
+    padding-bottom: 6px; 
     text-align: center;
 }
 .paraOne
@@ -34,5 +34,77 @@ p {
 }
 #ShovelList
 {
-    color:red;
+    font-size:large;
+    padding-left: 10%;
+    letter-spacing: 5px;
 }
+#squareShovel
+{
+    position:absolute;
+    width:250px;
+    right: 75px;
+
+}
+#pointyShovel
+{
+    position:absolute;
+    right: 300px;
+    width: 50;
+}
+#smallShovel
+{
+    position:absolute;
+    right:500px;
+    width:350px;
+}
+.titleTwo
+{
+    font-size:50px;
+    font-style:italic;
+    text-align: center;
+    color: black;
+}
+
+.links
+{
+    position:absolute;
+    margin-left: 1100px;
+    top: 340px;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #dad6d6;
+ }
+
+  .table
+  {
+      margin-top: 90px;
+      margin-right: auto;
+      margin-left:auto;
+
+      font-size: x-large;
+      border-top:3px solid grey;
+      border-bottom:3px solid grey;
+
+      word-spacing: 5px;
+      text-align: center;
+      width: 900px;
+  }
+
+  .TitleThree
+  {
+    font-size:50px;
+    font-style:italic;
+    text-align: center;
+    color: black;
+  }
+
+  #hvr:hover
+  {
+      margin: auto;
+  }
